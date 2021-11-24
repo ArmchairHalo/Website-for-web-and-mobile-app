@@ -1,6 +1,14 @@
-p {
-    color:darkred;
+body{
+    color: blueviolet;
 }
 h1,h2 {
+    background-color: aquamarine;
     color: darkblue;
+}
+
+.test_text {
+    color:darkgreen;
+}
+#last {
+    color: darkgoldenrod;
 }
