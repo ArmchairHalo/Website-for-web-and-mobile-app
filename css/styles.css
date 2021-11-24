@@ -1,9 +1,13 @@
 body{
     color: blueviolet;
+    font-family: verdana, Arial, sans-serif;
+    font-size: 16;
 }
 h1,h2 {
     background-color: aquamarine;
     color: darkblue;
+    font-family: monospace;
+    font-size: 25;
 }
 
 .test_text {
@@ -11,4 +15,9 @@ h1,h2 {
 }
 #last {
     color: darkgoldenrod;
+}
+
+a{
+    color: darkcyan;
+    text-decoration: none;
 }
