@@ -46,3 +46,21 @@ p{
     margin: 20px;
     text-align: center;
 }
+ul{
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+img.large {
+    width: 500px;
+    float: left;
+    margin-right: 10px;
+}
+
+img.medium{
+    width: 250px;
+}
+
+img.small{
+    width: 100px;
+}
