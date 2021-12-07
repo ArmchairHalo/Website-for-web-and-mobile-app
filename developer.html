@@ -28,6 +28,40 @@
         
         <h2>contact the developer:</h2>
         <form action="mailto:robertbulmer5571@outlook.com" method="get">
+            <p>Subject:<input type="text" name="subject"/></p>
+            
+            <p>Message:</p>
+            
+            <textarea name="body">type your message here...</textarea>
+            
+            <p>Message related to game:
+                <br />
+            <input type="radio" name="game" value="chase" checked="checked" class="input_element"/> Chase
+            <input type="radio" name="game" value="satellite" checked="checked" class="input_element"/> Satellite
+            <input type="radio" name="game" value="evil days" checked="checked" class="input_element"/> Evil Days
+            </p>
+            
+            <p>Message related to game:
+                <br />
+            <input type="checkbox" name="game_check" value="c" class="input_element"> Chase
+            <input type="checkbox" name="game_check" value="s" class="input_element"> Satellite
+            <input type="checkbox" name="game_check" value="ed" class="input_element"> Evil Days
+            </p>
+            
+            
+            <p>Message related to game:
+                <br />
+                
+                <select name="game_select" multiple="multiple">
+                    <option value="c">Chase</option>
+                    <option value="s">Satellite</option>
+                    <option value="ed">Evil Days</option>
+                </select>
+                
+            </p>
+            
+            <input type="submit" name="submit_button" value="Send"/>
+            
             
         </form>
         <p><a href="https://armchairhalo435.itch.io/" target="_blank">take a look at more of my stuff </a>(opens in a new window)<p> 
