@@ -22,7 +22,7 @@ a{
     text-decoration: none;
 }
 #divBox {
-    height: 1100px;
+    height: 1300px;
     width: 800px;
     background-color: #ee3e80;
     border-style: solid;
@@ -60,6 +60,35 @@ ul{
     list-style-type: square;
     list-style-position: outside;
 }
+
+table {
+    width: 300px;
+    empty-cells: show;
+    border-spacing: 5px 10px;
+    border-collapse: separate;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid #0088dd;
+}
+
+th {
+    text-transform: uppercase;
+    text-align: left;
+    border-top: 1px solid #999;
+    border-bottom: 2px solid #111111;
+    background-color: #efefef
+}
+
+tr.even {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: aquamarine;
+}
+
 
 img.large {
     width: 500px;
