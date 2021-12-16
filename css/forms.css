@@ -1,14 +1,4 @@
-body{
-    color: blueviolet;
-    font-family: arial, sans-serif;
-    font-size: 16;
-}
-h1,h2 {
-    
-    color: darkblue;
-    font-family: monospace;
-    font-size: 25;
-}
+
 ul{
     list-style-type: square;
     list-style-position: outside;
