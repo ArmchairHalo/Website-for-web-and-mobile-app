@@ -22,8 +22,6 @@ a{
     text-decoration: none;
 }
 #divBox {
-    height: 1400px;
-    width: 800px;
     background-color: #ee3e80;
     border-style: solid;
     border-width: thick;
@@ -32,8 +30,6 @@ a{
     box-shadow: 20px 20px 20px #333333;
 }
 #divBox2 {
-    height: 900px;
-    width: 800px;
     background-color: #ee3e80;
     border-style: solid;
     border-width: thick;
@@ -42,8 +38,7 @@ a{
     box-shadow: 20px 20px 20px #333333;
 }
 #divBox3 {
-    height: 1130px;
-    width: 800px;
+    
     background-color: #ee3e80;
     border-style: solid;
     border-width: thick;
