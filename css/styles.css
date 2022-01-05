@@ -1,13 +1,13 @@
 body{
     color: blueviolet;
     font-family: arial, sans-serif;
-    font-size: 16;
+    font-size: 16px;
 }
 h1,h2,h3 {
     
     color: darkblue;
     font-family: monospace;
-    font-size: 25;
+    font-size: 25px;
 }
 
 .test_text {
